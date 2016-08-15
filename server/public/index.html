@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>CHAT</title>
+</head>
+<body>
+    <div id="bgAllImage">
+        <img class="bgAllImage" src="images/0.jpg" alt=""/>
+    </div>
+    <div class="wrap">
+        <div id="main_container">
+            <div class="main_panel">
+                <div id="panelBodyWrapper-0" class="panel_body_container" style=" bottom: 50px;">
+                    <div id="panelBody-0" class="panel_body ">
+                        <div cmd="void" id="mainTopAll">
+                            <div class="accountHeader">
+                                <div class="avatar_wrap">
+                                    <img src="images/getface.jpg" height="40" width="40">
+                                </div>
+                                <span class="text_ellipsis user_nick">风火星辰</span>
+                                <span class="text_ellipsis user_shuoshuo">敏而好学，不耻下问</span>
+                            </div>
+                    </div>
+                        <div id="panel-1" class="panel selected">
+                        <header id="panelHeader-1" class="panel_header">
+
+                            <h1 id="panelTitle-1" class="text_ellipsis padding_20">会话</h1>
+
+                        </header>
+
+                        <div id="panelBodyWrapper-1" class="panel_body_container" style="top: 45px; ">
+                            <div id="panelBody-1" class="panel_body ">
+                                <div cmd="void" style="overflow: hidden;" id="current_chat_scroll_area" class="scrollWrapper">
+                                <ul style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);" id="current_chat_list" class="list list_white">
+
+
+                                    <li id="recent-item-group-1482588226" class="list_item notify" _uin="1482588226" _type="group" cmd="clickMemberItem">
+                                        <a href="javascript:void(0);" class="avatar" cmd="clickMemberAvatar" _uin="1482588226" _type="group"><img class="lazyLoadImg loaded" src="http://face6.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=4&amp;f=40&amp;uin=1482588226&amp;t=1461722360&amp;vfwebqq=0d449e30bd9415f0ce8bb1b5b8f8910313cccbce1b40ec423a2fba837133b9b07a305eff76cb9ce2">
+
+                                        </a>
+                                        <p class="member_nick" id="userNick-1482588226">
+
+                                            64区兄弟会死战份子
+
+                                        </p>
+
+                                        <p id="recent-item-group-1482588226-msg" class="member_msg text_ellipsis">。</p>
+
+                                    </li>
+
+                                </ul>
+                                <div style="position: absolute; z-index: 100; width: 7px; bottom: 2px; top: 2px; right: 1px; pointer-events: none; transition-property: opacity; overflow: hidden; opacity: 1;"><div style="position: absolute; z-index: 100; background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%; border: 1px solid rgba(255, 255, 255, 0.9); box-sizing: border-box; width: 100%; border-radius: 3px; pointer-events: none; transition-property: -moz-transform; transition-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1); transform: translate(0px, 0px) translateZ(0px); height: 96px;"></div></div></div></div>
+                            <ul id="pannelMenuList-1" class="pannel_menu_list">
+                            </ul>
+                        </div>
+
+                    </div>
+                        <div cmd="void" id="panel-2" class="panel ">
+                        <header id="panelHeader-2" class="panel_header">
+
+                            <div id="panelLeftButton-2" class="btn btn_small btn_left btn_black contact_null_btn" cmd="clickLeftButton">
+                                <span id="panelLeftButtonText-2" class="btn_text"><span  class="btn_img"></span></span>
+                            </div>
+
+                            <h1 id="panelTitle-2" class="text_ellipsis padding_20">联系人</h1>
+
+                            <button id="panelRightButton-2" class="btn btn_small btn_right btn_black btn_search" cmd="clickRightButton">
+                                <span id="panelRightButtonText-2" class="btn_text">查找</span>
+                            </button>
+
+                        </header>
+                            <ul style="display: none;" id="btn_list" class="pannel_menu_list ">
+
+                                <li cmd="viewInfo" class="viewInfo" id="add_friends">
+
+                                    添加好友
+
+                                </li>
+                                <li cmd="viewInfo" class="viewInfo" id="createroup">
+
+                                    创建群
+
+                                </li>
+
+                            </ul>
+
+                        <div id="panelBodyWrapper-2" class="panel_body_container" style="top: 45px; ">
+                            <div id="panelBody-2" class="panel_body ">
+                                <div id="contactList" class="tab tab_animate member_tab">
+                                    <ul id="memberTab" class="tab_head">
+                                        <li class="active" cmd="clickMemberTab" param="friend">好友</li>
+                                        <li cmd="clickMemberTab" param="group">群</li>
+                                    </ul>
+                                    <ul class="tab_body member_tab_body">
+                                        <li class="active" id="memberTabBody-friend">
+                                            <div style="overflow: hidden;" id="f_list_scroll_area" class="member_scroll_area">
+                                                <ul style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);" id="friend_groupList" class="group_list member_group_list">
+                                                    <li class="list_group">
+                                                        <ul id="groupBodyUl-0" class="list_group_body list list_white catogory_List">
+
+
+                                                            <li class="list_item" _uin="3932772326" _type="friend" >
+                                                                <a href="javascript:void(0);" class="avatar"  _uin="3932772326" _type="friend"><img src="">
+
+                                                                </a>
+                                                                <p class="member_nick">
+
+                                                                    恒通陈老师<span>(傲气雄鹰)</span>
+
+                                                                </p>
+
+                                                                <p class="member_msg text_ellipsis">
+                                                                    <span class="member_state">[在线]</span>
+                                                                </p>
+                                                            </li>
+
+                                                        </ul>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li  id="memberTabBody-group">
+                                            <div style="overflow: hidden;" id="group_list_scroll_area" class="member_scroll_area">
+                                                <ul style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);" id="g_list" class="list list_white catogory_List">
+
+
+
+
+                                                    <li id="group-item-group-1674643451" class="list_item" _uin="1674643451" _type="group" cmd="clickMemberItem">
+                                                        <a href="javascript:void(0);" class="avatar" cmd="clickMemberAvatar" _uin="1674643451" _type="group"><img class="lazyLoadImg loaded" src="http://face1.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=4&amp;f=40&amp;uin=1674643451&amp;t=1462362488&amp;vfwebqq=c04e3be28a8bc3bb0c780eed892719e0b948d46edc0423e4928473daff77c4c792695ff18e51f900">
+
+                                                        </a>
+                                                        <p class="member_nick" id="userNick-1674643451">
+
+                                                            09届10班
+
+                                                        </p>
+
+                                                        <p class="member_msg text_ellipsis">
+
+
+                                                        </p>
+
+
+                                                    </li>
+
+                                                </ul>
+                                               </div>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+              <div cmd="void" id="panel-3" class="panel ">
+                  <header id="panelHeader-3" class="panel_header">
+
+
+
+                  <h1 id="panelTitle-3" class="text_ellipsis padding_20">验证消息</h1>
+
+
+                </header>
+                  <div id="panelBodyWrapper-3" class="panel_body_container" style="top: 45px; ">
+                      <div id="panelBody-3" class="panel_body ">
+                          <div id="groupList" class="tab tab_animate member_tab">
+                              <ul class="tab_body member_tab_body">
+                                  <li id="memberTabBody-add" class="active">
+                                      <div style="overflow: hidden;" id="add_list_scroll_area" class="member_scroll_area">
+                                          <ul style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);" id="add_list" class="list list_white catogory_List">
+
+
+                                              <li  class="list_item"  _type="group">
+                                                  <a href="javascript:void(0);" class="avatar" cmd="clickMemberAvatar" _uin="1482588226" _type="group"><img src="images/getface.jpg" >
+
+                                                  </a>
+                                                  <p class="member_nick" id="userNick-148258822">
+                                                      64区兄弟会死战份子
+                                                  </p>
+
+                                                  <p class="member_msg text_ellipsis">
+                                                  </p>
+                                                  <div  class="addFriend">已添加</div>
+
+                                              </li>
+
+
+
+
+
+
+
+                                          </ul>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+                     <div cmd="void" id="panel-4" class="panel ">
+                        <header id="panelHeader-4" class="panel_header">
+
+                            <h1 id="panelTitle-4" class="text_ellipsis padding_20">设置</h1>
+
+                        </header>
+
+                        <div id="panelBodyWrapper-4" class="panel_body_container" style="top: 45px; overflow: hidden;">
+                            <div style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);" id="panelBody-4" class="panel_body list_page setting">
+                                <div class="group">
+                                    <div class="row clearfix">
+                                        <div class="cloumn">
+                                            <img class="avatar" src="http://face8.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=1747827668&amp;t=1461739959&amp;vfwebqq=94f5584621d95b5a3189cc583e1b10aa3102635da07fe143b5cd526ee0823547514fd2f59d803ef5">
+                                        </div>
+                                        <div class="cloumn profile_title_setting">
+                                            <div class="text_ellipsis profile_name row">bonjur</div>
+                                            <div class="row profile_account">1747827668</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="row profile_signature">
+                                        <span class="label">个性签名: </span>
+                                        <span>-</span>
+                                    </div>
+
+                                </div>
+                                <div class="group">
+                                    <div class="row profile_signature">
+                                        <span class="label">性别: </span>
+                                        <span>女</span>
+                                    </div>
+
+                                </div>
+                                <div class="group">
+                                    <div class="row profile_signature">
+                                        <span class="label">年龄: </span>
+                                        <span>22</span>
+                                    </div>
+
+                                </div>
+                                <div class="group clickAble" cmd="clickLogout">
+                                    <div class="row loginout">
+                                        退出当前帐号
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <footer id="panelFooter-0" class="">
+                    <nav cmd="void" id="nav_tab">
+                        <ul class="nav_tab_head">
+
+                            <li id="session" class="contact point selected" cmd="clickNav" param="session">
+                                <a>
+                                    <div class="icon"></div>
+                                    <span>会话</span>
+                                </a>
+                            </li>
+
+                            <li id="contact" class="conversation" cmd="clickNav" param="contact">
+                                <a>
+                                    <div class="icon"></div>
+                                    <span>联系人</span>
+                                </a>
+                            </li>
+
+                            <li id="plugin" class="plugin" cmd="clickNav" param="plugin">
+                                <a>
+                                    <div class="icon"></div>
+                                    <span>验证</span>
+                                </a>
+                            </li>
+
+                            <li id="setting" class="setup" cmd="clickNav" param="setting">
+                                <a>
+                                    <div class="icon"></div>
+                                    <span>设置</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="wallpaper-ctrl">
+                            <a href="###" class="wallpaperImg pre" id="wp-ctrl-pre" title="点击切换背景图片" cmd="clickWPPre"> </a>
+                            <a href="###" class="wallpaperImg next" id="wp-ctrl-next" title="点击切换背景图片" cmd="clickWPNext"> </a>
+                        </div>
+                    </nav>
+
+
+                </footer>
+            </div>
+        </div>
+        <!--container-->
+        <div id="container">
+            <div style=" transition: transform 0.4s cubic-bezier(0, 1, 0, 1) 0s; transform: translate3d(0px, 0px, 0px); display: none;" cmd="void" id="panel-5" class="panel chat-panel">
+                <header id="panelHeader-5" class="panel_header">
+
+                    <div id="panelLeftButton-5" class="btn btn_small btn_left btn_black btn_setting" cmd="clickLeftButton">
+                        <span id="panelLeftButtonText-5" class="btn_img"></span>
+                    </div>
+
+                    <h1 id="panelTitle-5" class="text_ellipsis padding_20">64区兄弟会死战份子</h1>
+
+                    <button id="panelRightButton-5" class="btn btn_small btn_right btn_black btn_setting" cmd="clickRightButton">
+                        <span id="panelRightButtonText-5" class="btn_text">关闭</span>
+                    </button>
+
+                </header>
+
+                <div id="panelBodyWrapper-5" class="panel_body_container" style="top: 45px; bottom: 50px; overflow: hidden;">
+                    <div style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) scale(1) translateZ(0px);" id="panelBody-5" class="panel_body chat_container">
+                        <div class="chat_content_group buddy  " _sender_uin="844038826">
+
+                            <img class="chat_content_avatar" src="" height="40px" width="40px">
+
+                            <p class="chat_nick">你好陌生人</p>
+
+
+                            <p class="chat_content ">PVP就跪了</p>
+                        </div>
+                        <div class="chat_content_group buddy  " _sender_uin="844038826">
+
+                            <img class="chat_content_avatar" src="http://face6.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=844038826&amp;t=1461409852&amp;vfwebqq=ea8d74e5db206509c9479b4d10bdce0188dc28a3caea05b5c36a227b20f57561670d6c306449e17d" height="40px" width="40px">
+
+                            <p class="chat_nick">你好陌生人</p>
+
+
+                            <p class="chat_content ">PVP就跪了</p>
+                        </div>
+                        <div class="chat_content_group buddy  " _sender_uin="844038826">
+
+                            <img class="chat_content_avatar" src="http://face6.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=844038826&amp;t=1461409852&amp;vfwebqq=ea8d74e5db206509c9479b4d10bdce0188dc28a3caea05b5c36a227b20f57561670d6c306449e17d" height="40px" width="40px">
+
+                            <p class="chat_nick">你好陌生人</p>
+
+
+                            <p class="chat_content ">PVP就跪了</p>
+                        </div>
+                        <div class="chat_content_group buddy  " _sender_uin="844038826">
+
+                            <img class="chat_content_avatar" src="http://face6.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=844038826&amp;t=1461409852&amp;vfwebqq=ea8d74e5db206509c9479b4d10bdce0188dc28a3caea05b5c36a227b20f57561670d6c306449e17d" height="40px" width="40px">
+
+                            <p class="chat_nick">你好陌生人</p>
+
+
+                            <p class="chat_content ">PVP就跪了</p>
+                        </div>
+                        <div class="chat_content_group buddy  " _sender_uin="844038826">
+
+                            <img class="chat_content_avatar" src="http://face6.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=844038826&amp;t=1461409852&amp;vfwebqq=ea8d74e5db206509c9479b4d10bdce0188dc28a3caea05b5c36a227b20f57561670d6c306449e17d" height="40px" width="40px">
+
+                            <p class="chat_nick">你好陌生人</p>
+
+
+                            <p class="chat_content ">PVP就跪了</p>
+                        </div>
+                        <div class="chat_content_group buddy  " _sender_uin="844038826">
+
+                            <img class="chat_content_avatar" src="http://face6.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=844038826&amp;t=1461409852&amp;vfwebqq=ea8d74e5db206509c9479b4d10bdce0188dc28a3caea05b5c36a227b20f57561670d6c306449e17d" height="40px" width="40px">
+
+                            <p class="chat_nick">你好陌生人</p>
+
+
+                            <p class="chat_content ">PVP就跪了</p>
+                        </div>
+
+                    </div>
+                    <ul style="display: none;" id="pannelMenuList-5" class="pannel_menu_list show">
+
+                        <li cmd="viewInfo" class="viewInfo" id="viewInfo">
+                            <div class="menu_list_icon"></div>
+                            资料
+                        </li>
+
+                    </ul>
+
+                    <div style="position: absolute; z-index: 100; width: 7px; bottom: 2px; top: 2px; right: 1px; pointer-events: none; transition-property: opacity; overflow: hidden; opacity: 1;">
+                        <div id="scrollBar" style="position: absolute; z-index: 100; background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%; border: 1px solid rgba(255, 255, 255, 0.9); box-sizing: border-box; width: 100%; border-radius: 3px; pointer-events: none; transition-property: -moz-transform; transition-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1); transform: translate(0px, 0px) translateZ(0px); display: none;">
+
+                        </div>
+                    </div>
+                </div>
+
+                <footer id="panelFooter-5" class="chat_toolbar_footer">
+                    <div class="chat_toolbar">
+
+                        <div id="add_face_btn" class="btn btn_face">
+                            <span class="btn_img"></span>
+                        </div>
+                        <textarea id="chat_textarea" class="input input_white chat_textarea"></textarea>
+                        <button id="send_chat_btn" class="btn btn_small btn_blue" cmd="sendMsg">
+                            <span class="btn_text">发送</span>
+                        </button>
+                        <textarea style="height: 32px; width: 564px;" id="" class="input input_white chat_textarea hidden_textarea"></textarea></div>
+
+
+                </footer>
+
+            </div>
+            <div style="transition: transform 0.4s cubic-bezier(0, 1, 0, 1) 0s; transform: translate3d(0px, 0px, 0px); display: none;" cmd="void" id="panel-6" class="panel search-panel">
+                <header id="panelHeader-6" class="panel_header">
+
+                    <h1 id="panelTitle-6" class="text_ellipsis padding_20">搜索</h1>
+
+                </header>
+
+                <div id="panelBodyWrapper-6" class="panel_body_container" style="top: 45px; ">
+                    <div id="panelBody-6" class="panel_body "><div id="searchBar" class="search_wrapper">
+                        <div class="search_inner">
+                            <input id="searchInput" class="searchInput" placeholder="搜索" autocapitalize="off" type="text">
+                            <button id="searchClear" class="searchClear" cmd="clearSearchWord"></button>
+                        </div>
+
+                    </div>
+                        <div style="overflow: hidden;" id="search_container_scroll_area" class="scrollWrapper search">
+                            <div style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);" id="search_container" class="search_container">
+                                <ul id="search_result_list" class="list list_white catogory_List">
+                                    <li id="search-item-friend-2466855822" class="list_item" _uin="2466855822" _type="friend" cmd="clickMemberItem">
+                                        <a href="javascript:void(0);" class="avatar" cmd="clickMemberAvatar" _uin="2466855822" _type="friend">
+                                            <img class="lazyLoadImg loaded" src="">
+
+                                        </a>
+                                        <p class="member_nick" id="userNick-2466855822">
+
+                                            肖月<span>(风啊七)</span>
+
+                                        </p>
+
+
+                                    </li>
+                                    <li id="search-item-friend-2219007790" class="list_item" _uin="2219007790" _type="friend" cmd="clickMemberItem">
+                                        <a href="javascript:void(0);" class="avatar" cmd="clickMemberAvatar" _uin="2219007790" _type="friend"><img class="lazyLoadImg loaded" src="http://face0.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=2219007790&amp;t=1461844584&amp;vfwebqq=a3b9a133b72a28cf5181c155277329b4d5e9b98652ff6a769470421bfae81c7093cbc4a45232ce0e">
+
+                                        </a>
+                                        <p class="member_nick" id="userNick-2219007790">
+
+                                            七月
+
+                                        </p>
+
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div></div>
+                    <ul id="pannelMenuList-6" class="pannel_menu_list">
+                    </ul>
+                </div>
+
+            </div>
+            <div style="transition: transform 0.4s cubic-bezier(0, 1, 0, 1) 0s; transform: translate3d(0px, 0px, 0px); display: none;" cmd="void" id="panel-7" class="panel search-panel">
+                <header id="panelHeader-7" class="panel_header">
+
+                    <h1 id="panelTitle-7" class="text_ellipsis padding_20">添加好友</h1>
+
+                </header>
+                <div id="panelBodyWrapper-7" class="panel_body_container" style="top: 45px; ">
+                    <div id="panelBody-7" class="panel_body ">
+                        <div id="addBar" class="search_wrapper">
+                        <div class="search_inner">
+                            <input id="addInput" class="searchInput" placeholder="好友昵称" autocapitalize="off" type="text">
+                            <!--<button id="addClear" class="addBtn" cmd="none"></button>-->
+                        </div>
+                            <button id="addClear" class="addBtn" cmd="none">查找</button>
+                    </div>
+                        <div style="overflow: hidden;" id="add_container_scroll_area" class="scrollWrapper search">
+                            <div style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);" id="search_container" class="search_container">
+                                <ul id="add_result_list" class="list list_white catogory_List">
+
+
+                                    <li id="search-item-friend-221007790" class="list_item" _uin="2219007790" _type="friend" cmd="clickMemberItem">
+                                        <a href="javascript:void(0);" class="avatar" cmd="clickMemberAvatar" _uin="2219007790" _type="friend"><img class="lazyLoadImg loaded" src="http://face0.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=2219007790&amp;t=1461844584&amp;vfwebqq=a3b9a133b72a28cf5181c155277329b4d5e9b98652ff6a769470421bfae81c7093cbc4a45232ce0e">
+
+                                        </a>
+                                        <p class="member_nick" id="userNick-221907790">
+
+                                            七月
+
+                                        </p>
+                                        <div id="addRequst" _uin="112" class="addRequst">添加好友</div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div></div>
+                    <ul id="pannelMenuList-7" class="pannel_menu_list">
+                    </ul>
+                </div>
+
+            </div>
+            <div style="transition: transform 0.4s cubic-bezier(0, 1, 0, 1) 0s; transform: translate3d(0px, 0px, 0px); display: none;" cmd="void" id="panel-8" class="panel profile-panel">
+                <header id="panelHeader-8" class="panel_header">
+
+                    <h1 id="panelTitle-8" class="text_ellipsis padding_20">详细资料</h1>
+
+
+                </header>
+
+                <div id="panelBodyWrapper-8" class="panel_body_container" style="top: 45px; bottom: 6px; overflow: hidden; background: rgb(237, 237, 237) none repeat scroll 0% 0%;">
+                    <div style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, -54px) scale(1) translateZ(0px);" id="panelBody-8" class="panel_body list_page">
+                        <div class="group">
+                            <div class="row clearfix">
+                                <div class="cloumn">
+                                    <img class="avatar" src="http://face2.web.qq.com/cgi/svr/face/getface?cache=1&amp;type=1&amp;f=40&amp;uin=924843372&amp;t=1462373647&amp;vfwebqq=25009134713a9486a434cdde599f2d6c382ee354975f98d93d97a144baaf042d6a37db4e7ccaeaa0">
+                                </div>
+                                <div class="cloumn profile_title">
+                                    <div class="row profile_name">龙在觉醒</div>
+                                    <div class="row profile_account">745656610</div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="group">
+                            <div class="row profile_signature">
+                                <span class="label">个性签名: </span><p class="row-content">我爱你|爱一个人，希望自己变更好，把最好的自己献给她</p>
+                            </div>
+                        </div>
+                        <div class="group">
+
+                            <div class="row ">
+                                <span class="label">性别</span>未知
+                            </div>
+
+
+                            <div class="row ">
+                                <span class="label">生日</span>0/8/20
+                            </div>
+
+                        </div>
+                        <div class="group">
+
+                            <div class="row ">
+                                <span class="label">国家</span>中国
+                            </div>
+
+
+                            <div class="row ">
+                                <span class="label">省份</span>天津
+                            </div>
+
+
+                        </div>
+                        <div class="group">
+
+                            <div class="row ">
+                                <span class="label">电话</span>12345678910
+                            </div>
+
+
+
+                            <div class="row ">
+                                <span class="label">电子邮箱</span>745656610@qq.com
+                            </div>
+                            <div class="group clickAble" cmd="clickLogout">
+                                <div class="row loginout">
+                                    删除好友
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <footer id="panelFooter-6" class="profile-footer">
+
+                </footer>
+
+            </div>
+            <div style="transition: transform 0.4s cubic-bezier(0, 1, 0, 1) 0s; transform: translate3d(0px, 0px, 0px); display: none;" cmd="void" id="panel-9" class="panel profile-panel">
+                <header id="panelHeader-9" class="panel_header">
+
+
+
+                    <h1 id="panelTitle-9" class="text_ellipsis padding_20">创建群</h1>
+
+
+                </header>
+
+                <div id="panelBodyWrapper-9" class="panel_body_container" style="top: 45px; bottom: 6px; overflow: hidden; background: rgb(237, 237, 237) none repeat scroll 0% 0%;">
+                    <div style="transition-property: -moz-transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px);" id="panelBody-9" class="panel_body list_page">
+
+                        <div class="creategrpform">
+
+
+                            <form action="" id="form1">
+                                <span>群名称:</span>
+                                <input name="" type="text"/>
+
+                            </form>
+
+                        </div>
+                        <div>
+                            <button class="addGrpBtn btn_blue" type="submit" form="form1">创建</button>
+                        </div>
+                    </div>
+                </div>
+                <footer id="panelFooter-9" class="profile-footer">
+                </footer>
+
+            </div>
+        </div>
+        <!--container-->
+    </div>
+</body>
+<script src="lib/jquery-2.1.4.js"></script>
+<script src="lib/jquery.mousewheel.js"></script>
+<script src="js/main.js"></script>
+</html>
